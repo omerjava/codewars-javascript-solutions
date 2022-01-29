@@ -18,7 +18,7 @@
         return result;
     }
 
-    console.log(arrayDiff([1,2,"t",2,3],[3]));
-    console.log(arrayDiff([], [4,5]));
-    console.log(arrayDiff([1,"f",8,"e",2], ["e"]));
-    console.log(arrayDiff([1,2,2,2,3,3],[2]));
+    console.log(arrayDiff([1,2,"t",2,3],[3]));        // output: [1, 2, 't', 2]
+    console.log(arrayDiff([], [4,5]));                // output: []
+    console.log(arrayDiff([1,"f",8,"e",2], ["e"]));   // output: [1, 'f', 8, 2]
+    console.log(arrayDiff([1,2,2,2,3,3],[2]));        // output: [1, 3, 3]
