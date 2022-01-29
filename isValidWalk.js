@@ -13,6 +13,7 @@ Note: you will always receive a valid array containing a random assortment of di
 letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, 
 that's standing still!).
 
+https://www.codewars.com/kata/54da539698b8a2ad76000228
 */
 
 function isValidWalk(walk) {
