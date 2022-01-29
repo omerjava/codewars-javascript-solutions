@@ -12,8 +12,8 @@
 
     function arrayDiff(a, b) {
         const result=[];
-        for(let number of a){    
-            if(!b.includes(number)) result.push(number);
+        for(let element of a){    
+            if(!b.includes(element)) result.push(element);
         }
         return result;
     }
